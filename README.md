@@ -1,2 +1,2 @@
 # lv2excel
-Collects and organizes Lost Vault player data into excel format
+A python script that collects and organizes Lost Vault player data into excel format
