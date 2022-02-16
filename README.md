@@ -38,6 +38,8 @@ But you must use either the -p or -t arguments for this script to do anything (i
 If you wish to check multiple tribes or players at once, enter them as comma separated values in single quotes as the value for the argument.  For example:
 
 `python3 lv2excel.py -t 'tribe1, tribe2, tribe3'`
+
+
 `python3 lv2excel.py -p 'player1, player2' -t 'tribe10, tribe11'`
 
 
