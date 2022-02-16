@@ -7,13 +7,13 @@ This is an extremely early/beta/incomplete script and may not work as expected o
 
 
 ## Requirements:
-*python3
-*argparse
-*requests
-*time
-*BeautifulSoup4
-*pandas
-*emoji
+* python3
+* argparse
+* requests
+* time
+* BeautifulSoup4
+* pandas
+* emoji
 	
 	
 	
@@ -37,8 +37,8 @@ But you must use either the -p or -t arguments for this script to do anything (i
 
 If you wish to check multiple tribes or players at once, enter them as comma separated values in single quotes as the value for the argument.  For example:
 
-`python3 lv2excel.py -t 'tribe1, tribe2, tribe3`
-`python3 lv2excel.py -p 'player1, player2' -t 'tribe10, tribe11`
+`python3 lv2excel.py -t 'tribe1, tribe2, tribe3'`
+`python3 lv2excel.py -p 'player1, player2' -t 'tribe10, tribe11'`
 
 
 
@@ -59,7 +59,7 @@ Again, the ***PLAYER NAME*** is the bit you would use as the value of the -p arg
 
 The names may not be what you expect.  As far as I can tell, names which have been changed in game still use the original name in the API, and names with "unusual" characters are assigned completely different names for the api (like "user-123")
 
-You can run this script on a tribe and then see which players info is not collected.  Double check in game if their API name is the same as their ingame name.  If their API name is different than their ingame name you can use the -r argument to replace their in game name with their API name like this:
+You can run this script on a tribe and then see which players info is not collected.  Then, double check in game if their API name is the same as their ingame name.  If their API name is different than their ingame name you can use the -r argument to replace their in game name with their API name like this:
 
-`python3 lv2excel.py -t tribe_name -r 'weird_name_1, user-123, person_with_new_name, persons_old_name`
+`python3 lv2excel.py -t tribe_name -r 'weird_name_1, user-123, person_with_new_name, persons_old_name'`
 
